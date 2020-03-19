@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/rpg.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+    <title>dat RPG</title>    
+</head>
+<body>
+    <div class="header">
+        <p>Simplon RPGJS</p>
+        <h2>Choisie ton personnage</h2>
+    </div>
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="img/Classe/Guerrier_(Classe).png" alt="Warrior" >
+            <div>
+                <h3>Guerrier</h3>
+                <p>Les Guerriers s'entraînent en permanence et aspirent à la perfection dans les combats. Issus de toutes les couches de la société, ils sont unis par leur volonté singulière à participer à de glorieuses batailles. Nombre de Guerriers servent comme mercenaires, tandis que d'autres préfèrent devenir aventuriers et chasseurs de fortunes attirés par le danger. Un Guerrier de ce nom est fort, résistant et exceptionnellement coriace.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="img/Classe/Voleur_(Classe).png" alt="rogue" >
+            <div>
+                <h3>Voleur</h3>
+                <p>Les Voleurs parviennent plus efficacement à leurs fins lorsque leurs faits ne sont jamais dévoilés. Férus de poisons et d'armes silencieuses capables de frapper à distance, les Voleurs sont des experts en camouflage, mais possèdent également quelques talents mystiques. Généralement au service des nobles et des autorités locales, le Voleur redistribue la richesse et élimine les cibles désignées. La loyauté d'un Voleur ne dure que le temps de son contrat.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="img/Classe/Mage_(Classe).png" alt="mage" >
+            <div>
+                <h3>Mage</h3>
+                <p>Les Mages ont un grand savoir et d'étonnantes capacités. Leur fragilité physique ne doit pas vous tromper, car ils peuvent faire appel aux énergies cosmiques du Néant. Les Mages combattent rarement au corps à corps. Ils préfèrent attaquer à distance, lançant de puissants éclairs de feu et de glace sur leurs ennemis.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="img/Classe/Chasseur_(Classe).png" alt="chasseur" >
+            <div>
+                <h3>Chasseur</h3>
+                <p>Les Chasseurs connaissent des endroits du monde dont les cartes n'ont pas encore été dressées. Animés d'une profonde empathie envers toute forme de vie, ils ont un don troublant pour se lier d'amitié avec les animaux sauvages et les apprivoiser. En outre, les chasseurs peuvent user de leurs sens finement aiguisés pour devenir de véritables maîtres pisteurs. Où que les chasseurs se trouvent, ils combattent les ravages de la maladie, de l'exploitation et de l'industrialisation.</p>
+            </div>
+        </a>
+    </div>
+    <div class="actions">
+        
+    </div>
+    <div class="arena">
+        
+    </div>
+    <div class="enemy">
+        
+    </div>
+</body>
+</html>
